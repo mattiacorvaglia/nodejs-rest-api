@@ -10,7 +10,7 @@ Simple REST API Server written in NodeJS, accepting CORS Requests and designed w
 
 1. Install **PM2**: `sudo npm install pm2 -g`
 2. Set the environment: `NODE_ENV=production`
-3. Start the NodeJS aoplication: `pm2 start app.js --name <APP-NAME>`
+3. Start the NodeJS application: `pm2 start app.js --name <APP-NAME>`
 4. Save the list of started processes in order to be restarted at machine reboot: `pm2 save`
 
 ---
@@ -39,6 +39,6 @@ Simple REST API Server written in NodeJS, accepting CORS Requests and designed w
     </VirtualHost>
     ```
 5. Enable the new site: `sudo a2ensite foo`
-6. Reload Apache `sudo service apache2 reload`
+6. Reload Apache: `sudo service apache2 reload`
 
 ---
